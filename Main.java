@@ -25,6 +25,12 @@ public class Main {
         }
         else {
             System.out.println("both line are not equal");
+            if (length1 >length2){
+                System.out.println("line1 is bigger then line2");
+            }
+            else {
+                System.out.println("line2 is bigger then line1");
+            }
         }
     }
 }
